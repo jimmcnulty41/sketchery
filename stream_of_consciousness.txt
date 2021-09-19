@@ -1,0 +1,22 @@
+Tried this wkflw:
+- open img in photoshop
+- trace drawings in black
+- export > layers to files
+    - this has option for type
+    - BMP
+        - not necessarily smaller size
+    - PNG
+        - has option for trim layer (not what we want cuz then there is a misalignment)
+        - has option for "interlaced" (not sure what this is)
+            - interlaced is like built-in LOD
+            - initial test shows size increase 9->11, 11->15
+        - tried png-24 which was much bigger0
+        - yeah, these end up being like 8 kb
+
+Image processing
+- I think the masks is gonna werk out aight
+- https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Compositing
+- We can probs use this ere 'destination-in'
+- ctx.globalCompositeOperation = type;
+
+so I guess we gonna canvas

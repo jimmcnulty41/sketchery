@@ -1,0 +1,24 @@
+{
+  "name": "sketchery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "three": "^0.132.2",
+    "typescript": "^4.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tsc && node ./dist/FuzzyDate.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmcnulty41/sketchery.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimmcnulty41/sketchery/issues"
+  },
+  "homepage": "https://github.com/jimmcnulty41/sketchery#readme"
+}
